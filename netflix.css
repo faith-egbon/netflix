@@ -1,0 +1,212 @@
+/* body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/NG-en-20220725-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+body{background-color: black;
+    margin: 0;
+}
+.Top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+img{
+    width: 11%;
+    padding-left: 3.5rem;
+}
+button{
+    background-color:rgb(241, 48, 48);
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 0%;
+    margin-right: 3.5rem;
+    border-collapse: separate;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+}
+.Top a{
+    text-decoration: none;
+    color: white;
+}
+.Top button a:hover{
+    background-color: azure;
+    color: rgb(8, 8, 8);
+}
+button:hover{
+    background-color: azure;
+    color: rgb(8, 8, 8);
+}
+
+.content{
+text-align: center;
+color: white;
+margin-top: 7%;
+font-family: Arial, Helvetica, sans-serif ;
+}
+.my-form{
+    align-items: center;
+    margin-left: 27%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email{
+    margin-left: 8%;
+    padding:12px 20% 12px 2%;
+}
+.get{
+    padding: 14px 2%;
+    background-color:rgb(241, 48, 48);
+    color: white ;
+    margin-left: 0%;
+    border: none;
+}
+
+h1{ 
+    font-size: 3.125rem;
+}
+h2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+h3{
+    color: white;
+    font-weight: 400
+    font-size: ;
+}
+.boss{
+    height: 100%;
+    border-bottom: 12px solid #222;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/NG-en-20220725-popsignuptwoweeks-perspective_alpha_website_medium\ \(1\).jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+
+}
+.sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    height: 30rem;
+    border-bottom:12px solid #222 ;
+
+}
+.enjoy{
+    margin-left: 5rem;
+}
+.display-image img{
+    width: 80%;
+}
+.new-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+    border-bottom:12px solid #222;
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+.mobile img{
+    width: 50%;
+}
+.download{
+    margin-right: 7rem;
+}
+.third-section{
+   height: 30%; 
+   border-bottom:12px solid #222;
+   font-family: sans-serif;
+   background-color: black;
+   color: white;
+   padding-left: 6rem;
+
+}
+.fourth-section{
+    height:80%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border-bottom:12px solid #222 ;
+    color: white;
+    padding-top: 4rem;
+    height: 70%;
+    font-family: sans-serif;
+}
+.kids-image img{
+    width: 70%;
+    margin-left: 3rem;
+}
+.profiles{
+margin-right: 2.5rem;
+padding-left: 0;
+margin-top: 3rem;
+}
+.parent-div{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    border-top: 0ch;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+;
+}
+#first{
+    list-style-type: none;
+    ;    
+}
+#second{
+    list-style-type: none;
+    
+}
+#third{
+    list-style-type: none;
+    
+}
+#fourth{
+    list-style-type: none;
+}
+.freq-ask-quest{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-bottom:12px solid #222 ;
+    height: 120vh;
+    font-family: sans-serif;
+    text-align: center;
+}
+summary{
+    position: relative;
+    padding: 1rem;
+    left: 14rem;
+    background-color: #302d2d;
+    margin-top: 1rem;
+    cursor: pointer;
+    font-weight: 400;
+    width: 70%;
+
+}
+.content2{
+    background-color: #302d2d;
+    font-weight: 400;
+    position:relative;
+    left: 14rem;
+    width: 70%
+}
+video{
+    margin-top: 1rem;
+	width: 400px;
+	height: 350px;
+	position: absolute;
+	left: 49rem;
+}
